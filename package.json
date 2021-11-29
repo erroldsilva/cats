@@ -1,0 +1,17 @@
+{
+  "name": "cats",
+  "version": "1.0.0",
+  "description": "Application to fetch cat pics and bind the images",
+  "main": "./lib/cat-says.js",
+  "scripts": {
+    "start": "node ./lib/cat-says.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "errol.dsilva@outlook.com",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@mapbox/blend": "^2.0.1",
+    "got": "^11.8.3",
+    "minimist": "^1.2.5"
+  }
+}
